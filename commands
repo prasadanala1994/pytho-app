@@ -1,0 +1,2 @@
+docker build -t prasadanala1994/python-app .
+docker run -d --name pythonapp -p 4000:81 prasadanala1994/python-app
